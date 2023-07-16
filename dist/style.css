@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color:rgba(75, 75, 75, 0.2)
+}
+nav ol{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+nav li button {
+    list-style: none;
+    padding: 20px;
+    background-color:brown;
+    color: white;
+    margin: 10px;
+    border: none;
+    font-size: large;
+}
+
+.header_title{
+    text-align: center;
+    padding: 20px;
+    background-color:darkslategrey;
+    color: white;
+    font-size:35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* HOME STYLES */
+div>h3,div>h6{
+    line-height:2lh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home_page{
+    margin: 15px;
+    padding: 20px;
+}
+
+/* MENU STYLES */
+.menu_title{
+    margin: 5px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white; 
+    font-size: 2em;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+#page_1{
+    background-color: antiquewhite;
+}#page_2{
+    padding: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(255,255,255,.5)), url("./img/coffee_bg.jpg");
+    background-size: cover;
+}
+#page_3{
+}
+
+
+/* PRODUCTS */
+#menu_list{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 2fr 2fr;
+    gap: 15px;
+    margin: 50px;
+}
+
+#menu_list li{
+    text-align: center;
+    list-style: none;
+    margin: 5px;
+    padding: 20px;
+    background-color: brown;
+    color: white;
+    line-height: 2lh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menu_list li p{
+    font-style: italic;
+    opacity: 0.7;
+}
+
+
+
+/* CONTACT STYLES */
+#page_3{
+    background: linear-gradient(rgba(255,255,255,.5),rgba(103, 103, 103, 0.1));
+    padding: 10px;
+}
+.contact_title{
+    margin: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black
+}
+
+.contact_container{
+   
+}
+
+.contact_container ul{
+    list-style: none; 
+    text-align: center;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 5fr;
+    gap: 15px;
+    margin: 50px;
+}
+
+#contact_list li{
+    padding: 20px;
+    margin: 20px;
+    background-color:midnightblue;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
